@@ -192,7 +192,7 @@
 
             // when the marker is clicked, this function will run to open the infowindow
             marker_clicked = function () {
-                infowindow.close(); // Close previously opened infowindow
+                infowindow.close(); // close previously opened infowindow
                 infowindow.setContent(contentString(this)); // show the content specified by the content string
                 infowindow.open(map, this);
             }
